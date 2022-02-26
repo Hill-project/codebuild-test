@@ -13,7 +13,7 @@ phases:
       - apt-get update -y
       - apt-get install -y maven
     finally:
-      - echo This always runs even if the update or install command failsssss
+      - echo This always runs even if the update or install command fail
   pre_build:
     commands:
       - echo Entered the pre_build phase...
